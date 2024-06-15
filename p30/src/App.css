@@ -1,0 +1,50 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  font-size: 1.4rem;
+  background-image: url(https://c4.wallpaperflare.com/wallpaper/286/889/153/alarm-clock-minimalism-pink-pastel-wallpaper-preview.jpg);
+  height: 100vh;
+  width: 100vw;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.clockColumn {
+  margin-right: 7rem;
+  text-align: center;
+  position: relative;
+}
+
+.clockLabel {
+  padding-top: 10px;
+  text-transform: uppercase;
+  color: black;
+  font-size: 14px;
+  text-align: center;
+  border-top: 1px solid black;
+}
+
+.clockTimer {
+  color: black;
+  font-size: 36px;
+  line-height: 1;
+}
+.clockInput {
+  clear: both;
+  text-align: center;
+  margin: 0 auto 10px;
+  font-size: 1.5rem;
+}
+
+.time{
+	width: 175px;
+	height: 50px;
+	font-size: 1rem;
+}
